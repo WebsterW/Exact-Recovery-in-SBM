@@ -1,1 +1,1 @@
-# Exact-Recovery-in-SBM
+# Non-convex Exact Community Recovery in Stochastic Block Model
