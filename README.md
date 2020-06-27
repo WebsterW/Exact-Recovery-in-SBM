@@ -9,6 +9,8 @@ By Peng Wang, Zirui Zhou, Anthony Man-Cho So.
 
 ================================================================================
 
-Utilisation guide
-The package comes with 2 experimental tests to output the results in the paper:
+This package contains 2 experimental tests to output the results in the paper:
+
+* In the folder of phase transition: 
+  * 
 
