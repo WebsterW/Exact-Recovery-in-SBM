@@ -11,7 +11,14 @@ By Peng Wang, Zirui Zhou, Anthony Man-Cho So.
 
 This package contains 2 experimental tests to output the results in the paper:
 
-* In the folder named phase transition, we conduct the expriment of phase transition to test recovery performance of our approach GPM and compare it with  SDP-based approach in Amini et al. (2018), the manifold optimization (MFO) based approach in Bandeira et al. (2016), and the spectral clustering (SC) approach in Abbe et al. (2017).
+* In the folder named phase transition, we conduct the expriment of phase transition to test recovery performance of our approach GPM and compare it with SDP-based approach in Amini et al. (2018), the manifold optimization (MFO) based approach in Bandeira et al. (2016), and the spectral clustering (SC) approach in Abbe et al. (2017).
   - phase_transition.m: Output the recovery performance and running time of above methods
-  -
-
+  - GPM.m: Implement our approach by PM + GPM
+  - manifold_GD: Implement MFO based approach by ADMM in Bandeira et al. (2016)
+  - sdp_admm1: Implement SDP-based approach by manifold gradient descent (MGD) method in Amini et al. (2018)
+  - SDP_solver.m: Implement SDP-based approach by CVX in Hajek et al. (2016) 
+  
+ * In the folder named convergence performance, we conduct the experiments of convergence performance to test the number of iterations needed by our approach
+GPM to exactly identify the underlying communities. For comparison, we also test the convergence performance of MGD, which is an iterative algorithm that has similar periteration
+cost to our method.
+  - convergence_rate_iterdist.m: Output the convergence performance of our methods and MGD
