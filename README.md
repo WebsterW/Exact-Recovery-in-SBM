@@ -1,4 +1,4 @@
-# Non-convex Exact Community Recovery in Stochastic Block Model
+# A Nearly-Linear Time Algorithm for Exact Community Recovery in Stochastic Block Model
 This folder contains the MATLAB source codes for the implementation of all the experiments in the paper
 
 "A Nearly-Linear Time Algorithm for Exact Community Recovery in Stochastic Block Model" (ICML 2020)
